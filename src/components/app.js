@@ -2,8 +2,6 @@ import React from 'react'
 import { Component } from 'react'
 import YTS from 'youtube-api-search'
 import _ from 'lodash';
-import BookList from '../containers/book-list'
-import BookDetail from '../containers/book-detail'
 
 export default class App extends Component {
     render() {
@@ -11,8 +9,6 @@ export default class App extends Component {
         return (
             <div>
                 Book list example
-                <BookList />
-                <BookDetail />
             </div>
         );
     }
