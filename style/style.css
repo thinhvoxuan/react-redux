@@ -25,3 +25,9 @@
 .list-group-item:hover {
     background-color: #eee;
 }
+
+.table td:first-of-type{
+    height: 250px;
+    width: 250px;
+
+}
