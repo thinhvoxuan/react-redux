@@ -9,6 +9,7 @@ export default class App extends Component {
         return (
             <div>
                 Book list example
+                {this.props.children}
             </div>
         );
     }
